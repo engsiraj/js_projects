@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="font_poppins medium_container">
-
+        <!-- main page -->
     <div class="margin_bottom1">
         <p class="type3 margin_top1 margin_bottom3 bolder" id="app_name"></p>
         <p class="type5 margin_bottom3" id="app_des"></p>
@@ -18,7 +18,7 @@
             <button class="btn_small" onclick="greet()">Click Me!</button>
         </div>
     </div> 
-
+   <!-- Counter App -->
     <div class="margin_top1 margin_bottom1">
         <p class="type4 margin_top3 margin_bottom3 bold" id="first_app_name"></p>
         <p class="type5 margin_top3 margin_bottom1" id="first_app_des"></p>
@@ -26,6 +26,24 @@
         <span id="counter">0</span>
         <button class="btn_small" onclick="Dec()" > -</button>
     </div>
+<!-- review page app -->
+     <div class="margin_top1 margin_bottom1">
+        <p class="type4 margin_top3 margin_bottom3 bold" id="sec_app_name"></p>
+        <p class="type5 margin_top3 margin_bottom1" id="sec_app_des"></p>
+
+    <p class="type4 margin_bottom2 bold text_center">What peeps says about us</p>
+    <div class="flex bg_shade space_between">
+        <div class="width2 flex column justify_center align_center "><button id="review_button" class="btn_large"onclick="Review()"> < </button></div>
+            <div class="padding1">
+            <p class="italic type5 margin_top3 margin_bottom3" id="review">"The best way to find yourself is to lose yourself in the service of others."</p>
+            <span class="type6 margin_top3 margin_bottom3 bolder" id="person">Mahatama Gandhi</span>
+            <span class="margin_start3 italic bold" id="position">leader</span>
+            </div>
+        <div class="width2 flex column justify_center align_center "><button id="review_button" class="btn_large" onclick="Review()"> > </button></div>
+    </div>
+
+    </div>
+    
 
     <script src="./main.js"></script>
     </div>
