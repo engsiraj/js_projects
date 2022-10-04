@@ -68,3 +68,18 @@ const Review = () => {
     post.innerText = reviews[random].post;
 }
 btn.addEventListener('click', Review);
+
+
+
+//responsive nav
+let app_name3 = `Responsive Nav bar`
+document.getElementById("third_app_name").innerHTML = app_name3;
+let app_des3 = `Simple responsive navbar app.`
+document.getElementById("third_app_des").innerHTML = app_des3;
+
+const hamburger = document.querySelector('.hamburger');
+const navLink = document.querySelector('.nav__link');
+
+hamburger.addEventListener('click', () => {
+  navLink.classList.toggle('hide');
+});
