@@ -45,23 +45,42 @@
         <p class="type4 margin_top3 margin_bottom3 bold" id="third_app_name"></p>
         <p class="type5 margin_top3 margin_bottom1" id="third_app_des"></p>
 
-    <nav class=" margin0 flex space_between grid1">
-        <p class="type4 bold">Logo</p>
-        <ul class="margin0 type5 grid2 flex space_between style_none">
-            <li>link1</li>
-            <li>link2</li>
-            <li>link3</li>
-            <a class="hide">≡</a>
-        </ul>
+ <nav class="margin0 grid1">
+    <div class="flex space_between">
+    <p class="type4 bold">Logo</p>
+     <ul class="margin0 type5 grid2 flex space_between style_none">
+       <li>link1</li>
+       <li>link2</li>
+       <li>link3</li>
+     </ul> 
+    </div>
+    <div style="display: none;">≡</div>     
+ </nav>
 
-    </nav>
  </div>
 
-
-
-
-
+<div class="margin_top1 margin_bottom1">
+        <p class="type4 margin_top3 margin_bottom3 bold" id="four_app_name"></p>
+        <p class="type5 margin_top3 margin_bottom1" id="four_app_des"></p>
+    <div class="margin_top1 margin_bottom1 bg_shade padding1">
+        <div class="margin_top2">
+        <label class="type6 bolder">Hieght: </label>
+        <input type="text" id="hieght">
+        </div>
+        <div class="margin_top2 margin_bottom2">
+        <label class="type6 bolder">Wieght: </label>
+        <input type="text" id="wieght">
+        </div>
+        <button class="btn_small bolder round3 bg_blue text_white" onclick="Bmi();">Calculate</button>
+        <i id="bmi"></i>
     </div>
+</div>
+
+
+
+
+
+</div>
     <script src="./main.js"></script>
     </div>
 </body>
